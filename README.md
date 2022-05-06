@@ -39,5 +39,4 @@ module "ecs_service_example_api" {
 
 ## Outputs
 
-- arn
 - name
