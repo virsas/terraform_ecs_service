@@ -30,7 +30,7 @@ variable "ecs_service_example_api" {
 # Module
 ##############
 module "ecs_service_example_api" {
-  source = "github.com/virsas/terraform_ecs_service"
+  source = "git::https://github.com/virsas/terraform_ecs_service.git?ref=v1.0.0"
   service = var.ecs_service_example_api
   cluster = module.ecs_cluster_apis.id
   td      = module.ecs_td_example_api.arn
